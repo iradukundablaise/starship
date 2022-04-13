@@ -69,7 +69,7 @@ export default class Game{
 
     addKeyBoardEvents(){
         window.addEventListener("keydown", this.listenerKeyBoardEvent.bind(this));
-        //window.addEventListener("keyup", this.listenerKeyBoardEvent.bind(this));
+        window.addEventListener("keyup", this.listenerKeyBoardEvent.bind(this));
     }
 
     listenerKeyBoardEvent(event){
